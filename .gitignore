@@ -1,2 +1,4 @@
 **/bin/
+**/obj/
 .vs/
+TaskManagerApp.Presentation/TaskManagerApp.Presentation/TaskManagerApp.db

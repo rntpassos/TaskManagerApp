@@ -1,39 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renat\\source\\repos\\TaskManagerApp\\TaskManagerApp.Presentation\\TaskManagerApp.Presentation.Client\\TaskManagerApp.Presentation.Client.csproj": {}
+    "C:\\Programas\\TaskManagerApp\\TaskManagerApp.Presentation\\TaskManagerApp.Presentation.Client\\TaskManagerApp.Presentation.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renat\\source\\repos\\TaskManagerApp\\TaskManagerApp.Presentation\\TaskManagerApp.Presentation.Client\\TaskManagerApp.Presentation.Client.csproj": {
+    "C:\\Programas\\TaskManagerApp\\TaskManagerApp.Presentation\\TaskManagerApp.Presentation.Client\\TaskManagerApp.Presentation.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renat\\source\\repos\\TaskManagerApp\\TaskManagerApp.Presentation\\TaskManagerApp.Presentation.Client\\TaskManagerApp.Presentation.Client.csproj",
+        "projectUniqueName": "C:\\Programas\\TaskManagerApp\\TaskManagerApp.Presentation\\TaskManagerApp.Presentation.Client\\TaskManagerApp.Presentation.Client.csproj",
         "projectName": "TaskManagerApp.Presentation.Client",
-        "projectPath": "C:\\Users\\renat\\source\\repos\\TaskManagerApp\\TaskManagerApp.Presentation\\TaskManagerApp.Presentation.Client\\TaskManagerApp.Presentation.Client.csproj",
+        "projectPath": "C:\\Programas\\TaskManagerApp\\TaskManagerApp.Presentation\\TaskManagerApp.Presentation.Client\\TaskManagerApp.Presentation.Client.csproj",
         "packagesPath": "C:\\Users\\renat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renat\\source\\repos\\TaskManagerApp\\TaskManagerApp.Presentation\\TaskManagerApp.Presentation.Client\\obj\\",
+        "outputPath": "C:\\Programas\\TaskManagerApp\\TaskManagerApp.Presentation\\TaskManagerApp.Presentation.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\renat\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\RemObjects.Software.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\RemObjects Software\\Packages": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -61,7 +53,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",

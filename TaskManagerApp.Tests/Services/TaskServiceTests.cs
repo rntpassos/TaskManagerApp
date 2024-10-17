@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Moq;
 using TaskManagerApp.Application.Interfaces;
 using TaskManagerApp.Application.Services;
@@ -10,6 +11,7 @@ public class TaskServiceTests : IDisposable
 {
     private readonly TestDbContext _context;
     private readonly Mock<IRepository<TaskEntity>> _mockRepository;
+    private readonly Mock<ILogger<TaskService>> _mockLogger;
     private readonly ITaskService _taskService;
 
     public TaskServiceTests()
@@ -26,7 +28,8 @@ public class TaskServiceTests : IDisposable
 
         // Configurar o repositório com o contexto
         _mockRepository = new Mock<IRepository<TaskEntity>>();
-        _taskService = new TaskService(_mockRepository.Object);
+        _mockLogger = new Mock<ILogger<TaskService>>();
+        _taskService = new TaskService(_mockRepository.Object, _mockLogger.Object);
     }
 
     [Fact]
