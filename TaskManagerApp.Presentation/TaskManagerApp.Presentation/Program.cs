@@ -11,13 +11,9 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
-/*builder.Services.AddDbContext<ApplicationDbContext>(options =>
-        options.UseSqlite(builder.Configuration.GetConnectionString("DefaultSqlLite")),
-        b => b.MigrationsAssembly("TaskManagerApp.Infrastructure"));*/
-
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlite(
-        builder.Configuration.GetConnectionString("DefaultSqlLite"),
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
         b => b.MigrationsAssembly("TaskManagerApp.Infrastructure")
     )
 );

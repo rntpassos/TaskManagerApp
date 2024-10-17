@@ -17,6 +17,10 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         base.OnModelCreating(modelBuilder);
 
+        modelBuilder.HasSequence<long>("TaskSequence", schema: "dbo")
+                     .StartsAt(1)
+                     .IncrementsBy(1);
+
         modelBuilder.Entity<TaskEntity>()
             .OwnsOne(t => t.Location);
     }

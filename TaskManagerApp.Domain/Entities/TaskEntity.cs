@@ -10,8 +10,8 @@ public class TaskEntity : IBaseEntity
     public string Description { get; set; }
     public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
-    public Location? Location { get; set; } // Usando o Value Object
-    public long AssignedToUserId { get; set; } // Para associar a tarefa ao usuário
+    public Location? Location { get; set; }
+    public long AssignedToUserId { get; set; }
     public DateTimeOffset CreatedAt { get; set; }
     public DateTimeOffset UpdatedAt { get; set; }
     public string CreatedBy { get; set; }
